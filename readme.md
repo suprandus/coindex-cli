@@ -26,14 +26,15 @@ coindex key set
 coindex key show
 coindex key remove
 
+# Example
+coindex check price --coin=bitcoin,ethereum,tether --cur=php
+
 # Check Specific Coins (default: BTN,ETH,XRP)
 coindex check --coin=BTC,ETH
 
 # Choose Currency (Default: USD)
 coindex check --cur=EUR
 
-# Example
-coindex check price --coin=bitcoin,ethereum,tether --cur=php  
 # Crypto Check Commands
 coindex check price
 ```
