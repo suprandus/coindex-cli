@@ -27,7 +27,7 @@ coindex key show
 coindex key remove
 
 # Check Specific Coins (default: bitcoin,ethereum,tether)
-# Currently, only the name is available for a specific coin. The symbol will be added soon.
+# Currently, only the name is available for a specific coin. The symbol will be added soon
  
 coindex check price --coin=ripple,cardano
 
