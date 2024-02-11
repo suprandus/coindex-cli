@@ -1,6 +1,6 @@
 # Coindex CLI
 
-Command line interface written in Node.js to check cryptocurrency prices
+Command line interface written in Node.js to check cryptocurrency prices.
 
 Register an API key at https://www.coingecko.com/en/api
 
@@ -26,13 +26,12 @@ coindex key set
 coindex key show
 coindex key remove
 
-# Check Specific Coins (default: bitcoin,ethereum,tether)
-# Currently, only the name is available for a specific coin. The symbol will be added soon
- 
+# Check Specific Coins (default: bitcoin,ethereum,tether).
+# Currently, only the name is available for a specific coin. The symbol will be added soon.
 coindex check price --coin=ripple,cardano
 
 # Choose Currency (Default: USD)
-coindex check --cur=EUR
+coindex check --cur=PHP
 
 # Crypto Check Commands
 coindex check price
