@@ -7,7 +7,7 @@ program
   .option(
     '--coin <type>',
     'Add specific coin types in CSV format',
-    'bitcoin,ethereum,tether' // coin name not symbol;
+    'bitcoin,ethereum,tether' // coin or token name not symbol;
   )
   .option('--cur <currency>', 'Change the currency', 'usd')
   .action(cmd => check.price(cmd));
